@@ -4,6 +4,7 @@ $ (function (){
         elem.toggle('slow');
     })
 
+    
     var fade = $('#fade');
     $ ('#fadeIn').click(function (){
         fade.fadeIn('slow');
@@ -16,5 +17,24 @@ $ (function (){
     })
     $ ('#fadeTo').click(function (){
         fade.fadeTo(1000,.5);
+    })
+
+    var slide = $('#slide')
+    $ ('#slideUp').click(function (){
+        slide.slideUp(1000);
+    })
+    $ ('#slideDown').click(function (){
+        slide.slideDown(1000);
+    })
+
+
+    $('#animate').click(function () {
+        $('#animation').animate({
+           height: "500px",
+           width:'500px'
+        },2000)
+    })
+    $('#stopAnimate').click(function () {
+       $('#animation').stop();
     })
 })

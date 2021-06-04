@@ -51,15 +51,22 @@ ul{
 /*header section*/
 
 /*contant section*/
-#fade{
+#fade, #slide{
     width: 20%;
     height: 180px;
     background-color: brown;
     color: #fff;
-    text-align: center;
 }
-#fade p{
+#fade p, #slide p, #animation p{
     padding: 15px 15px;
     justify-content: center;
+}
+#slide{
+    background: steelblue;
+}
+#animation{
+    width: 200px;
+    height: 200px;
+    background: teal;
 }
 /*contant section*/
