@@ -25,6 +25,7 @@ ul{
     background-color: chocolate;
     text-align: center;
     border-bottom: 5px solid slategray;
+    margin-bottom: 10px;
 }
 #header_contant .logo{
     width: 30%;
@@ -50,5 +51,15 @@ ul{
 /*header section*/
 
 /*contant section*/
-
+#fade{
+    width: 20%;
+    height: 180px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+}
+#fade p{
+    padding: 15px 15px;
+    justify-content: center;
+}
 /*contant section*/
