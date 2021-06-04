@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*header section*/
+#header_contant{
+    width: 100%;
+    background-color: chocolate;
+    text-align: center;
+    border-bottom: 5px solid slategray;
+}
+#header_contant .logo{
+    width: 30%;
+    height: 100%;
+    align-self: center;
+}
+#header_contant .logo h1{
+    color: white;
+}
+#header_contant .menu{
+    width: 70%;
+    text-transform: capitalize;
+    text-align: right;
+}
+#header_contant .menu ul li{
+    display: inline-block;
+}
+#header_contant .menu ul li a{
+    display: block;
+    padding: 30px 20px;
+    color: white;
+}
+/*header section*/
+
+/*contant section*/
+
+/*contant section*/
